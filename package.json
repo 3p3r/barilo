@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/3p3r/barilo/issues"
   },
-  "homepage": "https://github.com/3p3r/barilo#readme"
+  "homepage": "https://github.com/3p3r/barilo#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1035.0",
+    "commander": "^8.3.0",
+    "date-prompt": "^1.0.0",
+    "inquirer": "^8.2.0",
+    "inquirer-autocomplete-prompt": "^1.4.0",
+    "json-to-pretty-yaml": "^1.2.2",
+    "yaml-cfn": "^0.3.1"
+  }
 }
