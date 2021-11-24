@@ -18,6 +18,15 @@
       "program": "${workspaceFolder}/index.js",
       "console": "integratedTerminal",
       "args": ["input"]
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Entrypoint [guardrail]",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/index.js",
+      "console": "integratedTerminal",
+      "args": ["guardrail"]
     }
   ]
 }
