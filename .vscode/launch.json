@@ -2,31 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "pwa-node",
+      "name": "CDK Synth",
       "request": "launch",
-      "name": "Entrypoint [pattern]",
+      "runtimeArgs": ["run-script", "synth"],
+      "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/index.js",
-      "console": "integratedTerminal",
-      "args": ["pattern"]
-    },
-    {
       "type": "pwa-node",
-      "request": "launch",
-      "name": "Entrypoint [input]",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/index.js",
-      "console": "integratedTerminal",
-      "args": ["input"]
-    },
-    {
-      "type": "pwa-node",
-      "request": "launch",
-      "name": "Entrypoint [guardrail]",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/index.js",
-      "console": "integratedTerminal",
-      "args": ["guardrail"]
+      "console": "integratedTerminal"
     }
   ]
 }
