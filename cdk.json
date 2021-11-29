@@ -1,5 +1,5 @@
 {
-  "app": "node . guardrail",
+  "app": "node . create-guardrail",
   "context": {
     "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
     "@aws-cdk/core:enableStackNameDuplicates": true,
