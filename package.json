@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Alexa, make me a guardrail...",
   "main": "index.js",
+  "bin": {
+    "barilo-iac": "index.js"
+  },
   "scripts": {
-    "test": "exit 0"
+    "synth": "cdk synth"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/3p3r/barilo#readme",
   "dependencies": {
+    "@aws-cdk/core": "1.134.0",
+    "aws-cdk": "1.134.0",
     "aws-sdk": "^2.1035.0",
     "commander": "^8.3.0",
     "date-prompt": "^1.0.0",
