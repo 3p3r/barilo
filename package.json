@@ -20,6 +20,7 @@
     "aws-sdk": "^2.1035.0",
     "commander": "^8.3.0",
     "date-prompt": "^1.0.0",
+    "debug": "^4.3.3",
     "inquirer": "^8.2.0",
     "inquirer-autocomplete-prompt": "^1.4.0",
     "json-to-pretty-yaml": "^1.2.2",
