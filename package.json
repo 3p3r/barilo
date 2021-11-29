@@ -7,6 +7,7 @@
     "barilo-iac": "index.js"
   },
   "scripts": {
+    "postinstall": "patch-package",
     "synth": "cdk synth"
   },
   "repository": {
@@ -29,6 +30,7 @@
     "inquirer": "^8.2.0",
     "inquirer-autocomplete-prompt": "^1.4.0",
     "json-to-pretty-yaml": "^1.2.2",
+    "patch-package": "^6.4.7",
     "yaml-cfn": "^0.3.1"
   }
 }

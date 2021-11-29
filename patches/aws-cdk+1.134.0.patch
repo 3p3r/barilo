@@ -1,0 +1,13 @@
+diff --git a/node_modules/aws-cdk/lib/api/cxapp/exec.js b/node_modules/aws-cdk/lib/api/cxapp/exec.js
+index 3b4d0e3..229b596 100644
+--- a/node_modules/aws-cdk/lib/api/cxapp/exec.js
++++ b/node_modules/aws-cdk/lib/api/cxapp/exec.js
+@@ -96,7 +96,7 @@ async function execProgram(aws, config) {
+             //   user gets to see it sooner. Plus, capturing doesn't interact nicely with some
+             //   processes like Maven.
+             const proc = childProcess.spawn(commandAndArgs, {
+-                stdio: ['ignore', 'inherit', 'inherit'],
++                stdio: ['inherit', 'inherit', 'inherit'],
+                 detached: false,
+                 shell: true,
+                 env: {
