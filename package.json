@@ -36,6 +36,7 @@
     "inquirer-autocomplete-prompt": "^1.4.0",
     "json-to-pretty-yaml": "^1.2.2",
     "patch-package": "^6.4.7",
+    "timestring": "^6.0.0",
     "yaml-cfn": "^0.3.1"
   }
 }
