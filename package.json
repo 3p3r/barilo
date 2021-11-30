@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/3p3r/barilo#readme",
   "dependencies": {
+    "@aws-cdk/aws-events": "1.134.0",
+    "@aws-cdk/aws-events-targets": "1.134.0",
+    "@aws-cdk/aws-stepfunctions": "1.134.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.134.0",
     "@aws-cdk/core": "1.134.0",
     "aws-cdk": "1.134.0",
     "aws-sdk": "^2.1038.0",
