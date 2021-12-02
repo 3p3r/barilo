@@ -1,8 +1,8 @@
 diff --git a/node_modules/aws-cdk/lib/api/cxapp/exec.js b/node_modules/aws-cdk/lib/api/cxapp/exec.js
-index 3b4d0e3..229b596 100644
+index 3b4d0e3..6ef8ba4 100644
 --- a/node_modules/aws-cdk/lib/api/cxapp/exec.js
 +++ b/node_modules/aws-cdk/lib/api/cxapp/exec.js
-@@ -96,7 +96,7 @@ async function execProgram(aws, config) {
+@@ -96,12 +96,13 @@ async function execProgram(aws, config) {
              //   user gets to see it sooner. Plus, capturing doesn't interact nicely with some
              //   processes like Maven.
              const proc = childProcess.spawn(commandAndArgs, {
@@ -11,3 +11,9 @@ index 3b4d0e3..229b596 100644
                  detached: false,
                  shell: true,
                  env: {
+                     ...process.env,
+                     ...env,
++                    'BARILO_PATCHED': 'true'
+                 },
+             });
+             proc.on('error', fail);
