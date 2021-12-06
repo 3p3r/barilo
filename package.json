@@ -23,10 +23,10 @@
   "dependencies": {
     "aws-cdk": "2.0.0",
     "aws-cdk-lib": "2.0.0",
-    "constructs": "^10.0.0",
     "aws-sdk": "^2.1042.0",
     "boolean": "^3.1.4",
     "commander": "^8.3.0",
+    "constructs": "^10.0.0",
     "date-prompt": "^1.0.0",
     "debug": "^4.3.3",
     "inquirer": "^8.2.0",
