@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 process.env.AWS_SDK_LOAD_CONFIG = 1;
+process.env.EDITOR = "nano";
 
 const { program } = require("commander");
 const { version } = require("./package.json");
