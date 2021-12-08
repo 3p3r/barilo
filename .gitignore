@@ -225,3 +225,6 @@ $RECYCLE.BIN/
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Node Persist stuff
+.node-persist
